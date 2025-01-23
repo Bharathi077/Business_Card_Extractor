@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Business Card Extractor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📇 Business Card Extractor</h1>
+        </div>
+
+        <div class="content">
+            <div class="upload-section">
+                <input type="file" id="file-upload" multiple accept=".jpg,.jpeg,.png">
+                <button id="upload-btn">Upload & Extract</button>
+
+                <div id="image-preview"></div>
+            </div>
+
+            <div class="data-section">
+                <table id="extraction-table">
+                    <thead>
+                        <tr>
+                            <th>Person Name</th>
+                            <th>Company Name</th>
+                            <th>Email</th>
+                            <th>Contact Number</th>
+                        </tr>
+                    </thead>
+                    <tbody id="data-body"></tbody>
+                </table>
+
+                <div class="action-buttons">
+                    <button id="download-btn" style="display:none;">Download CSV</button>
+                    <button id="clear-btn">Clear All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
