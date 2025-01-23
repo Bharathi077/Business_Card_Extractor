@@ -93,3 +93,15 @@ button:hover {
 #extraction-table th {
     background-color: #f2f2f2;
 }
+
+.action-buttons {
+    display: flex;
+    justify-content: space-between; /* Ensures equal spacing between buttons */
+    gap: 10px; /* Optional: Adds space between buttons */
+    margin-top: 20px;
+}
+
+.action-buttons button {
+    flex: 1; /* Optional: Makes both buttons equal in width */
+    text-align: center; /* Ensures text is centered in buttons */
+}
