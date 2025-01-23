@@ -4,3 +4,4 @@ google-generativeai
 Werkzeug
 langchain-core
 langchain-google-genai
+gunicon
