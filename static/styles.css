@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #97d5d9;
+    background-color: #bbe7ee;
     margin: 0;
     padding: 20px;
     color: #333;
@@ -9,22 +9,36 @@ body {
 .container {
     max-width: 1400px;
     margin: 0 auto;
-    background-color: #0a4c62;
+    background-color: #003c44;
     border-radius: 20px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     padding: 30px;
+    margin-top: 90px;
 }
 
-.header {
-    text-align: center;
-    margin-bottom: 30px;
-    padding: 20px;
-}
 
-.header h1 {
-    color: #441752;
-    font-size: 2.5em;
-}
+        .logo {
+            position: absolute;
+            left: 150px;
+            right: 20px;
+            width: 0px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 4px;
+            margin-left:20px;
+        }
+
+        .page-title {
+            font-family:'Times New Roman', Times, serif;
+            text-align: center;
+            flex-grow: 1;
+            font-size: 2.4rem;
+            font-weight: bold;
+            color:#0b555f;
+            margin-top: 30px;
+        }
 
 .content {
     display: flex;
@@ -36,7 +50,7 @@ body {
     background-color: #f9f9fc;
     padding: 40px;
     border-radius: 8px;
-    
+
 }
 
 input[type="text"],
@@ -46,11 +60,11 @@ input[type="file"] {
     margin-bottom: 15px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    
+
 }
 
 button {
-    
+
     background-color: #e81a1a;
     color: white;
     border: none;
@@ -65,7 +79,7 @@ button:hover {
 }
 
 #image-preview {
-    
+
     flex-wrap: wrap;
     gap: 10px;
     margin-top: 15px;
@@ -78,7 +92,7 @@ button:hover {
 }
 
 #extraction-table {
-    
+
     width: 100%;
     border-collapse: collapse;
 }
