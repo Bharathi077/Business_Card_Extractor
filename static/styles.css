@@ -1,16 +1,16 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f8;
+    background-color: #97d5d9;
     margin: 0;
     padding: 20px;
     color: #333;
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
-    background-color: white;
-    border-radius: 10px;
+    background-color: #0a4c62;
+    border-radius: 20px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     padding: 30px;
 }
@@ -18,23 +18,25 @@ body {
 .header {
     text-align: center;
     margin-bottom: 30px;
+    padding: 20px;
 }
 
 .header h1 {
-    color: #1a73e8;
+    color: #441752;
     font-size: 2.5em;
 }
 
 .content {
     display: flex;
-    gap: 30px;
+    gap: 40px;
 }
 
 .upload-section, .data-section {
     flex: 1;
     background-color: #f9f9fc;
-    padding: 20px;
+    padding: 40px;
     border-radius: 8px;
+    
 }
 
 input[type="text"],
@@ -44,10 +46,12 @@ input[type="file"] {
     margin-bottom: 15px;
     border: 1px solid #ddd;
     border-radius: 5px;
+    
 }
 
 button {
-    background-color: #1a73e8;
+    
+    background-color: #e81a1a;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -61,20 +65,20 @@ button:hover {
 }
 
 #image-preview {
-    display: flex;
+    
     flex-wrap: wrap;
     gap: 10px;
     margin-top: 15px;
 }
 
 #image-preview img {
-    max-width: 100px;
-    max-height: 100px;
-    object-fit: cover;
+    max-width: 300px;
+    max-height: 300px;
     border-radius: 5px;
 }
 
 #extraction-table {
+    
     width: 100%;
     border-collapse: collapse;
 }
@@ -82,7 +86,7 @@ button:hover {
 #extraction-table th,
 #extraction-table td {
     border: 1px solid #ddd;
-    padding: 10px;
+    padding: 20px;
     text-align: left;
 }
 
