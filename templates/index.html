@@ -6,10 +6,13 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    
-    <div class="header">
-        
-        <h1>Business Card Extractor</h1>
+
+   <header>
+        <div class="logo">
+            <img src="https://smartificia.com/assets/img/smartificia-logo.png" alt="Your Company Logo" style="width: 230px; height: auto;">
+        </div>
+        <div class="page-title">Business Card Extractor</div>
+    </header>
     </div>
     <div class="container">
 
@@ -17,7 +20,7 @@
             <div class="upload-section">
                 <input type="file" id="file-upload" multiple accept=".jpg,.jpeg,.png">
                 <button id="upload-btn">Upload & Extract</button>
-                
+
                 <div id="image-preview"></div>
             </div>
 
