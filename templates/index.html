@@ -6,16 +6,18 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
+    
+    <div class="header">
+        
+        <h1>Business Card Extractor</h1>
+    </div>
     <div class="container">
-        <div class="header">
-            <h1>📇 Business Card Extractor</h1>
-        </div>
 
         <div class="content">
             <div class="upload-section">
                 <input type="file" id="file-upload" multiple accept=".jpg,.jpeg,.png">
                 <button id="upload-btn">Upload & Extract</button>
-
+                
                 <div id="image-preview"></div>
             </div>
 
